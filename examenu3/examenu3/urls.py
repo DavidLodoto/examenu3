@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from examenu3 import views
+from examenu3app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
